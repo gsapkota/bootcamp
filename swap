@@ -1,5 +1,10 @@
 		//swap with three temp variables:
-		
+		package fundamentals;
+
+public class Swap {
+
+	public static void main(String[] args) {
+	
 		int fno=100;
 		int sno =200;
 		int nno=300;
@@ -15,29 +20,25 @@
 		System.out.println("After Swapping");
 		System.out.println("fno:" +fno +" " + "sno:" +sno+" " +"nno:"+nno);
 		
-	}
+
 		
 	
 
-}
-
 
 //Swap three variables without temp
-		
-		int fno=100;
-		int sno =200;
-		int nno=300;
-		
-		System.out.println("Before Swapping");
-		System.out.println("fno : "+ fno +" " + "sno: "+sno + " " +"nno:"+nno);
-		int temp =0;
-		temp =fno;
-		fno=sno;
-		sno=temp;
-		sno=nno;
-		nno =temp;
-		System.out.println("After Swapping");
-		System.out.println("fno:" +fno +" " + "sno:" +sno+" " +"nno:"+nno);
+		int ano=100;
+int bno =200;
+int cno=300;
+
+System.out.println("Before Swapping");
+System.out.println("ano : "+ ano +" " + "bno: "+bno + " " +"cno:"+cno);
+ano= ano+bno+cno;
+bno =ano-(bno+cno);
+cno =ano-(bno+cno);
+ano =ano-(bno+cno);
+
+System.out.println("After Swapping");
+System.out.println("ano:" +ano +" " + "bno:" +bno+" " +"cno:"+cno);
 		
 	}
 		
