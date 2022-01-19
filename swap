@@ -1,3 +1,5 @@
+		//swap with three variables:
+		
 		int fno=100;
 		int sno =200;
 		int nno=300;
