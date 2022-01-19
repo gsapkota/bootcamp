@@ -1,4 +1,28 @@
-		//swap with three variables:
+		//swap with three temp variables:
+		
+		int fno=100;
+		int sno =200;
+		int nno=300;
+		
+		System.out.println("Before Swapping");
+		System.out.println("fno : "+ fno +" " + "sno: "+sno + " " +"nno:"+nno);
+		int temp =0;
+		temp =fno;
+		fno=sno;
+		sno=temp;
+		sno=nno;
+		nno =temp;
+		System.out.println("After Swapping");
+		System.out.println("fno:" +fno +" " + "sno:" +sno+" " +"nno:"+nno);
+		
+	}
+		
+	
+
+}
+
+
+//Swap three variables without temp
 		
 		int fno=100;
 		int sno =200;
